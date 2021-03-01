@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+	font-family: monospace;
+}
+
+h1#name, #iam{
+	margin: 0px;
+	font-size: 25px;
+}
+
+h1#name{
+	font-size: 80px;
+}
+
+h1#helloworld{
+	font-size: 30px;
+	font-family: consolas, monospace;
+	background-color: #00366b;
+	padding: 5px;
+}
+
+h1#title{
+	font-family: consolas, monospace;	
+}
+
+div#me{
+	color: white;
+	padding: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: #0058b0;
+	
+	margin-top: 12%;
+	margin-bottom: 13%;
+	width: 35%
+		
+}
+
+section#first{
+	background-color: black;
+	display: flex;
+	height: 800px;
+}
+
+.subhead{
+	background-color: #0058b0;
+	color: white;
+}
+
