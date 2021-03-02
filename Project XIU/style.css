@@ -23,21 +23,29 @@ h1#title{
 	font-family: consolas, monospace;	
 }
 
+
+
+div#particles-js{
+    background-color: #000;
+}
+
 div#me{
 	color: white;
 	padding: 10px;
 	padding-left: 200px;
 	padding-right: 200px;
+    
 	background-color: #0058b0;
 	
-	margin-top: 12%;
-	margin-bottom: 13%;
-		
+    top: 175px;
+    height: 350px;
+    width: 50%;
+    
+    position: absolute;
 }
 
 section#first{
-	background-color: black;
-	display: flex;
+	display: inline;
 	height: 800px;
 }
 
