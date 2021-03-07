@@ -83,7 +83,7 @@ section#first{
 
 .horizontal-bar{
 	background-color: #0058b0;
-	height: 50px;
+	height: 20px;
 	width: 70%;
 	margin: auto;
 }
@@ -177,12 +177,14 @@ button:active{
 	
 	top: -260px;
 	right: -10%;
+	
+	border-radius: 10px;
 }
 
 .subhead.about{
 	font-size: 50px;
 	position: relative;
-	top: -150px;
+	top: -125px;
 }
 
 button.about{
@@ -194,6 +196,7 @@ button.about{
 
 /*programming bars*/
 
+/*
 section#progbars{
 	display: block;
 }
@@ -233,6 +236,7 @@ p.lang{
 	font-size: 16px;
 	font-family: Consolas;
 }
+*/
 
 /*words*/
 
@@ -249,11 +253,7 @@ h1.words{
 	font-size: 30px;
 }
 
-/*languages*/
-	
-.python{
-	width: 85%;
-	background-color: black;
+#showScroll{
+	color: white;
 }
-
 
