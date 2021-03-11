@@ -257,3 +257,57 @@ h1.words{
 	color: white;
 }
 
+
+/*projects*/
+
+section.projects{
+	padding-top: 30px;
+	text-align: center;
+	background-color: #fff;
+}
+
+div.projects{
+	margin: auto;
+	background-color: #232323;
+	width: 60%;
+	
+	text-align: center;
+	border-radius: 20px;
+	
+	padding: 10px 0px 10px 0px;
+}
+
+#projects-title{
+	font-size: 104px;
+	font-family: 'Roboto';
+	
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 20%;
+}
+
+h1.projects{
+	width: 80%;
+	text-align: left;
+	
+	margin-left: 10%;
+	
+	
+	color: white;
+	font-size: 34px;
+	font-family: 'Roboto';
+	
+	margin-bottom: 10px;
+
+}
+
+img.projects{
+	width: 80%;
+}
+
+p.projects{
+	width: 80%;
+	margin-left: 10%;
+	text-align: left;
+	color: white;
+}
