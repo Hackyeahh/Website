@@ -6,8 +6,6 @@ var anim = ['p_', 'pr_', 'pri_', 'prin_', 'print_', 'print(_', 'print("_', 'prin
 var k = 0;
 var words = ["robotics.","engineering.","programming.","chess.","video editing.","competitive.","self-motivated.","leadership.","self-taught.","perseverant.","passionate.","Henry Xiu."]
 
-var toggle1 = true;
-
 
 
 
@@ -48,7 +46,8 @@ function wordsAnimation(){
 var played = false;
 window.addEventListener('scroll', function() {
 	if (window.pageYOffset > 800 && played == false){
-		wordsAnimation();
+		
+		setTimeout(wordsAnimation, 1000);
 		played = true;
 	}
 });
