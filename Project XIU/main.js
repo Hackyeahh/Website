@@ -16,23 +16,23 @@ var words = ["robotics.","engineering.","programming.","chess.","video editing."
 //"cout << \"Hello World!\" << endl;"
 
 
-function helloWorldAnimation(){
+// function helloWorldAnimation(){
 
-	document.getElementById("helloworld").innerHTML = anim[j];
-	j += 1;
+// 	document.getElementById("helloworld").innerHTML = anim[j];
+// 	j += 1;
 	
-	if (j == anim.length){
-		j = 0
-	}
+// 	if (j == anim.length){
+// 		j = 0
+// 	}
 	
-	setTimeout(helloWorldAnimation, 150);
+// 	setTimeout(helloWorldAnimation, 150);
 	
 	
-}
+// }
 
 function wordsAnimation(){
 	
-	document.getElementById("fastwords").innerHTML = words[k];
+	document.getElementById("words-anim").innerHTML = words[k];
 	k += 1
 	
 	if (k == words.length){
