@@ -44,9 +44,9 @@ function wordsAnimation(){
 
 var played = false;
 window.addEventListener('scroll', function() {
-	if (window.pageYOffset > 800 && played == false){
+	if (window.pageYOffset > 952 && played == false){
 		
-		setTimeout(wordsAnimation, 1000);
+		setTimeout(wordsAnimation, 0);
 		played = true;
 	}
 });

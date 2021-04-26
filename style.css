@@ -89,7 +89,7 @@ div.nav{
 	height: 30px;
 	top: 0px;
 
-	background: #F7F7F7;
+	background: #222;
 	border-radius: 0px 0px 35px 35px;
 
 
@@ -111,7 +111,7 @@ a.nav{
 	/* identical to box height */
 
 
-	color: #000000;
+	color: #FFF;
 
 
 	/* Inside Auto Layout */
@@ -214,7 +214,7 @@ p.phrase{
 	font-family: "Lora", serif;
 	font-style: italic;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 22px;
 
 	flex: none;
@@ -504,6 +504,8 @@ img.item{
 	width: 450px;
 	margin-right: 35px;
 	object-fit: cover;
+
+	border-radius: 10px;
 }
 
 .circle{
