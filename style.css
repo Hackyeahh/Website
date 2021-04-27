@@ -1,6 +1,6 @@
 
 html{
-	background-color: #000;
+	background-color: #111;
 	scroll-behavior: smooth;
 }
 
@@ -62,7 +62,6 @@ section.landing{
 	padding: 0px;
 
 	
-	width: 100%;
 	height: fit-content;
 
 	background: #FFFFFF;
@@ -262,17 +261,13 @@ section.about{
 	padding: 100px 0px 0px 0px;
 }
 
-#v2{
-	position: relative;
-	top: -1px;
-	
-}
+
 
 div.backdrop{
 	background-color: #FFFFFF;
 	
 	
-	width: 1350px;
+	max-width: 1350px;
 	margin: 0px 10px;
 
 	border-radius: 50px;
