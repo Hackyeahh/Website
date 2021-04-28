@@ -264,7 +264,7 @@ section.about{
 
 
 div.backdrop{
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	
 	
 	max-width: 1350px;
@@ -276,7 +276,7 @@ div.backdrop{
 }
 
 div.backdrop2{
-	background-color: #FAFAFA;	
+	background-color: #FFF;	
 	margin: 32.5px;
 	
 	border-radius: 50px;
