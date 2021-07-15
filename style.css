@@ -346,6 +346,11 @@ p.about{
 }
 
 #about-line{
+	position: relative;
+	background-color: #000;
+
+	width: 101%;
+	height: 2px;
 
 	z-index: 0;
 }
